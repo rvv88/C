@@ -1,10 +1,29 @@
 /******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
+Questão 2: Vetores Operações com Números Binários
+Um número na base binária está armazenado em um vetor de forma que o dígito menos significativo está na
+posição 0, e assim sucessivamente até que o dígito mais significativo está na última posição do vetor.
+Por exemplo:
+0 1 1 0 1 -> 10110 Transformando em decimal : 0*2 0 + 1* 2 1 + 1 * 2 2 + 0 * 2 3 + 1 * 2 4  22
+0 1 2 3 4
+a) Exibir um número binário
+Construa uma função que receba um vetor com um número binário (representado conforme descrito) e a
+quantidade de elementos. A função deve exibi-lo corretamente, da posição mais significativa para a menos
+significativa.
+b) Converter um número binário para decimal
+Construa uma função que receba um vetor com um número binário e a quantidade de elementos. A função deve
+calcular e retornar o número decimal correspondente.
+c) Operação XOR entre dois números binários
+Construa uma função que receba três vetores com a mesma quantidade de elementos. Os dois primeiros vetores
+armazenam dois números binários, e o terceiro vetor, inicialmente vazio, deve ser preenchido com o resultado da
+operação XOR. Isto é: O resultado de uma posição será 0 se os dígitos forem iguais e será 1, se forem diferentes. Por
+exemplo, se a função receber os dois vetores com os valores {1,0,0,1} e {1,0,1,0}, o terceiro vetor ficará com
+{0,0,1,1,}:
+1001
+1010
+------
+0011 -> resultado
+d) Crie uma função main para testar as funções anteriores. Exiba os números binários e seus equivalentes em
+decimal. Exiba também o resultado da operação XOR em ambas as bases.
 *******************************************************************************/
 #include <stdio.h>
 #include <math.h>
